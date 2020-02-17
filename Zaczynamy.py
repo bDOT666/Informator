@@ -16,10 +16,9 @@ with open(folder + "log.txt", "a") as f:
 
 
 def naciskasz(key):
-    global keys, count
+    global keys
 
     keys.append(key)
-    count += 1
     zapis(keys)
     keys = []
 
